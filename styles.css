@@ -47,16 +47,22 @@ a,
     font-size: 18px;
 }
 
-.menu {
-    padding: 80px 400px;
-    gap: 26px;
-    align-items: flex-start;
 
+
+.menu {
+    padding: 100px 400px;
+    align-items: flex-start;
+    justify-content: space-between;
 }
 
 .menu > img {
-    width: 1000px;
-    height: 300px;
+    height: 350px;
+    flex: 0
+
+}
+
+.menu-text {
+    width: 450px
 
 }
 
@@ -65,7 +71,42 @@ a,
     color: #f9faf8;
     font-weight: 900;
     margin: 0 auto;
+
 }
+
+.information-title {
+    text-align: center;
+    font-size: 36px;
+    color: #1f2937;
+    font-weight: 900;
+}
+
+.information-container {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 120px;
+    gap:50px
+
+}
+
+.information-container .info {
+    max-width: 180px;
+}
+
+.information-container .text {
+    text-align: center;
+    font-weight: 350;
+
+}
+
+.info img {
+    width: 170px;
+    height: 180px;
+    border : 5px solid #3882f6;
+    border-radius: 10%;
+
+}
+
 
 .quote {
     background-color: #e5e7eb;
@@ -74,16 +115,21 @@ a,
     font-style: italic;
     color: #1f2937;
     padding: 120px 0px;
+
 }
 
-.quote-text,
-.quote-person  {
-    width: 830px;
-    margin: auto;
+.quote-text  {
+    max-width: 800px;
+    margin: 0 auto;
 }
 
 .quote-person {
-    text-align: end;
+    font-weight: 500;
+    font-size: smaller;
+    width: 70%;
+    margin:0;
+    text-align: end
+
 }
 
 button,
@@ -93,28 +139,42 @@ button,
 
 .call-to-action {
     box-sizing: border-box;
-    margin: 80px 300px;
-    padding: 20px 120px;
+    margin: 100px 380px;
+    padding: 50px 120px;
     display: flex;
     align-items: center;
+    justify-content: space-between;
+    border-radius: 10px;
 
 }
 
 button {
     box-sizing: border-box;
-    border-radius: 12%;
+    border-radius: 7px;
+    border:none;
     color: white;
-    padding: 4px 26px;
+    padding: 7px 32px;
+    font-size: 18px;
+    font-weight: bold
 }
 
 .call-to-action p {
     color: white;
+    margin:0;
+    font-size: 22px;
+}
+
+.cta-title {
+    font-weight: bolder;
 
 }
 
+.call-to-action button {
+    border: 2px solid white;
+}
 
 .footer {
-    padding: 30px 0;
+    padding: 40px 0;
     justify-content: center;
 
 }
