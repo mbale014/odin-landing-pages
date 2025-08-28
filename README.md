@@ -28,6 +28,7 @@ property-landing-page/
 * Hero photo : [Interior design of a house](https://www.pexels.com/photo/interior-design-of-a-house-1571460/)
 * House image 1  : [Modern Building Against Sky](https://www.pexels.com/photo/modern-building-against-sky-323780/)
 * House image 2 : [lighted house beside trees](https://unsplash.com/photos/lighted-house-beside-trees-kUdbEEMcRwE)
-* House image 3 : [white and brown concrete building](https://unsplash.com/photos/white-and-brown-concrete-building-hHz4yrvxwlA)
-* House image 4 : [white and brown concrete building under blue sky during daytime](https://unsplash.com/photos/white-and-brown-concrete-building-under-blue-sky-during-daytime-5QLCohwVndQ)
+* House image 3 : [white and brown concrete building under blue sky during daytime](https://unsplash.com/photos/white-and-brown-concrete-building-under-blue-sky-during-daytime-5QLCohwVndQ)
+* House image 4 : [white and brown concrete building](https://unsplash.com/photos/white-and-brown-concrete-building-hHz4yrvxwlA)
+
 
